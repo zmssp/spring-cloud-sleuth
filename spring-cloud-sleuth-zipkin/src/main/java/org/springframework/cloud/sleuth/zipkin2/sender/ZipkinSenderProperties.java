@@ -58,7 +58,9 @@ public class ZipkinSenderProperties {
 		/**
 		 * HTTP based sender.
 		 */
-		WEB
+		WEB,
+
+		local
 
 	}
 

@@ -39,6 +39,7 @@ public class ZipkinSenderConfigurationImportSelector implements ImportSelector {
 		mappings.put("rabbit", ZipkinRabbitSenderConfiguration.class.getName());
 		mappings.put("kafka", ZipkinKafkaSenderConfiguration.class.getName());
 		mappings.put("web", ZipkinRestTemplateSenderConfiguration.class.getName());
+		mappings.put("local", ZipkinLocalSenderConfiguration.class.getName());
 		MAPPINGS = Collections.unmodifiableMap(mappings);
 	}
 

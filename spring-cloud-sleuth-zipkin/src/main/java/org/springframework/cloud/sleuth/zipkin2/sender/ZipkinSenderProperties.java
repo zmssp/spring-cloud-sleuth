@@ -60,6 +60,9 @@ public class ZipkinSenderProperties {
 		 */
 		WEB,
 
+		/**
+		 * local sender.
+		 */
 		local
 
 	}
